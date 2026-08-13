@@ -3,14 +3,14 @@
 
 ## Status
 - Current week: 2 (Aug 7 – Aug 13, 2026) — budget 15h
-- Week 1 total spent: [FILL — known: 5.5h + drills; write the real total] / 10
+- Week 1 total spent: [~6] / 10
 - Week 2 spent so far: 0 / 15
 - Total spent: [same number as week 1] / ~145h
 - Phase: 1 (by hand — no agents write code or design docs)
 
 ## Decisions locked
 - Product: coach–runner training platform, trail/road focus
-- Name: ChaskiNan  <!-- or ChaskiYachay — one only -->
+- Name: ChaskiNan  
 - v1 scope: docs/scope.md (US-01..US-10; Phase 2: US-11..US-14)
 - Runner ↔ coach link: invitation code (marketplace deferred to Phase 2)
 - Plan assignment: copy-on-assign (snapshot); runner/coach links are
@@ -32,7 +32,7 @@
 - [x] CP1: Scope doc — PASSED (4 drafts + defense quiz)
 - [x] CP1-bis quiz: Q1✓ Q2◐ Q3✗ Q4◐ Q5✓ — Q2/Q3 gaps closed via drills
 - [x] Drills: pharmacy (glossary/invariants), restaurant (copy vs reference)
-- [ ] Step 1: repo + scope.md + PROGRESS.md committed  ← YOU ARE HERE
+- [x] Step 1: repo + scope.md + PROGRESS.md committed
 - [ ] Step 2 / CP4: walking skeleton deployed (API + Next.js + CI) — 2.5h
 - [ ] Step 3 / CP2: docs/domain.md hand-written — 2.5h
 - [ ] CP3: API contracts — week 2
