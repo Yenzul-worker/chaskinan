@@ -1,0 +1,40 @@
+name: CI
+on:
+  push:
+    branches: [main]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      # 1) checkout the code        → actions/checkout
+      # 2) install .NET 10          → actions/setup-dotnet, version 10.0.x
+      # 3) dotnet build backend/ChaskiNan.slnx
+      - name: Checkout the code
+        uses: actions/checkout@v4
+
+      - name: Install .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.302'
+
+      - name: Build backend
+        run: dotnet build backend/ChaskiNan.slnx
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
+
+      - name: Install Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
