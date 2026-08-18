@@ -4,7 +4,7 @@
 ## Status
 - Current week: 2 (Aug 7 – Aug 13, 2026) — budget 15h
 - Week 1 total spent: [~6] / 10
-- Week 2 spent so far: 0 / 15
+- Week 2 spent so far: 3 / 15
 - Total spent: [same number as week 1] / ~145h
 - Phase: 1 (by hand — no agents write code or design docs)
 
@@ -33,7 +33,7 @@
 - [x] CP1-bis quiz: Q1✓ Q2◐ Q3✗ Q4◐ Q5✓ — Q2/Q3 gaps closed via drills
 - [x] Drills: pharmacy (glossary/invariants), restaurant (copy vs reference)
 - [x] Step 1: repo + scope.md + PROGRESS.md committed
-- [ ] Step 2 / CP4: walking skeleton deployed (API + Next.js + CI) — 2.5h
+- [x] Step 2 / CP4: walking skeleton deployed (API + Next.js + CI) — 2.5h
 - [ ] Step 3 / CP2: docs/domain.md hand-written — 2.5h
 - [ ] CP3: API contracts — week 2
 
