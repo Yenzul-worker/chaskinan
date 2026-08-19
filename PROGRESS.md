@@ -5,7 +5,7 @@
 - Current week: 2 (Aug 7 – Aug 13, 2026) — budget 15h
 - Week 1 total spent: [~6] / 10
 - Week 2 spent so far: 3 / 15
-- Total spent: [same number as week 1] / ~145h
+- Total spent: [3] / ~145h
 - Phase: 1 (by hand — no agents write code or design docs)
 
 ## Decisions locked
